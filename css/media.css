@@ -270,6 +270,19 @@
     padding-top: 50px;
     padding-bottom: 70px;
   }
+
+  .footer {
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .footer-social-link {
+    margin-right: 30px;
+  }
+
+  .footer-social-link:last-child {
+    margin-right: 0px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -378,5 +391,14 @@
 
   .dark-theme .btn-next {
     background: url(../img/arrow-white.svg) no-repeat center center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-logo,
+  .footer-social {
+    margin-bottom: 50px;
   }
 }
