@@ -603,11 +603,11 @@ span {
 }
 
 .dark-theme .header {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #363636;
 }
 
 .dark-theme .line {
-  background: #fff;
+  background: #363636;
 }
 
 .dark-theme .search-input {
@@ -625,13 +625,16 @@ span {
 
 .dark-theme .btn-sign-up {
   background: #000;
-  border-left: 1px solid #fff;
+  border-left: 1px solid #363636;
+}
+
+.dark-theme .film {
+  border-bottom: 1px solid #363636;
 }
 
 .dark-theme .trailer-btn {
   background: #000;
-  border: 1px solid #fff;
-  border-top: none;
+  border: 1px solid #363636;
 }
 
 .dark-theme .film-title {
